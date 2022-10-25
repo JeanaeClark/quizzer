@@ -34,7 +34,7 @@ export function Quizzer (): JSX.Element {
     const addQuiz = (title: string, body: string) => {
         const newQuiz: Quiz = {
             title: title, body: body,
-            id: 0,
+            id: quizzes.length+1,
             published: false,
             questionList: []
         };

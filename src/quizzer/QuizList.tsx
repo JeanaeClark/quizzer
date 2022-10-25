@@ -25,7 +25,7 @@ export function QuizList ({
     const resetQuizView = () => {
         setDisplayId(null);
     };
-    
+
     return (
         <div className="quiz_list">
             {!displayId && (
@@ -42,7 +42,7 @@ export function QuizList ({
                     </Button>
                 </>
             )}
-            {quizzes.map((quiz: Quiz) => (displayId === quiz.id ? 
+            {quizzes.map((quiz: Quiz) => (displayId === quiz.id ?
                         <QuizView
                             key={quiz.id}
                             quiz={quiz}
@@ -50,8 +50,9 @@ export function QuizList ({
                             deleteQuiz={deleteQuiz}
                             resetQuizView={resetQuizView}
                         ></QuizView>
+
             : ""))}
         </div>
     );
 };
-//if (displayId === quiz.id)
+//(displayId === quiz.id)
