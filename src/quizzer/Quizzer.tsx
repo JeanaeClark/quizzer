@@ -3,7 +3,7 @@ import { Quiz } from "../interfaces/quiz";
 import { Question, QuestionType } from "../interfaces/question";
 import { QuizList } from "./QuizList";
 import { AddQuizModal } from "./AddQuizModal";
-
+import pic from "./Project1FlowChart.jpg"
 import "./Quizzer.css";
 import sample from "../data/quizzes.json";
 //import { Button } from "react-bootstrap";
@@ -63,7 +63,7 @@ export function Quizzer (): JSX.Element {
             ></AddQuizModal>
             <hr />
             <h2 style={{ color: "white" }}>Application Sketch</h2>
-            {/* <img src={require("./sketchFINAL.jpg")} /> */}
+            <img src={pic} alt="ApplicationSketch" />
             <hr />
             <div style={{ color: "white" }}>
                 <h2>Completed Features</h2>

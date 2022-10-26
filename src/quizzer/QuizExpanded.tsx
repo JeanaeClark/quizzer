@@ -80,7 +80,6 @@ export function QuizExpanded ({
                         onClick={() => {
                             reset();
                             switchEdit();
-                            console.log("hufdahif")
                         }}
                     >
                         Edit
