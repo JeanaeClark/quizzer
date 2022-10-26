@@ -3,7 +3,7 @@ import { Quiz } from "../interfaces/quiz";
 import { Question, QuestionType } from "../interfaces/question";
 import { QuizList } from "./QuizList";
 import { AddQuizModal } from "./AddQuizModal";
-import pic from "./Project1FlowChart.jpg"
+import pic from "./img.jpg"
 import "./Quizzer.css";
 import sample from "../data/quizzes.json";
 //import { Button } from "react-bootstrap";
